@@ -1,0 +1,5 @@
+FROM 3.6-alpine:latest
+LABEL maintainer "Kamil Podbielski <freeniac@gmail.com>"
+
+ADD . /project
+RUN python setup.py test
