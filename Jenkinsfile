@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Building Pyramid project fork'
+        sleep 5
       }
     }
   }
